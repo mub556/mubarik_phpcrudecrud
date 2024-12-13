@@ -1,15 +1,33 @@
-# INET4031 PHP Crude CRUD App (MariaDB/MySQL DB Version)
+# PHP CRUD Application
 
-## Demonstrates a basic Dynamic HTML Application using PHP
+This repository contains the source code for a simple three-tier PHP web application that demonstrates the implementation of Create, Read, Update, and Delete (CRUD) operations. It was developed as part of an assignment to learn about building database-driven applications using the LAMP stack (Linux, Apache, MySQL, PHP).
 
-It doesn't get much more crude than this, but is a great starting point for understanding how **dynamic data-driven web applications** work.
+## Features
+- User-friendly web interface for managing database records.
+- Secure user authentication for accessing CRUD operations.
+- Robust database connectivity using MySQL.
 
-Understand how this one works, and more modern/advanced/complex web development frameworks, won't seem so mysterious.
+## Environment Setup
+1. **Virtual Machine Configuration**:
+   - Created a Virtual Machine with Ubuntu installed.
+   - Configured Ubuntu with updates and two network connections.
 
-This application assumes the MySQL database has certain users added and an "employees" database based on a sample dataset. Additional details will be provided in class.
+2. **Software Installation**:
+   - Installed LAMP stack:
+     - Linux: Ubuntu Server
+     - Apache: Web server
+     - MySQL: Database server
+     - PHP: Backend scripting
 
-The "credentials.php" file above has the details of the MySQL database connection.  You will need to modify this file to work for your configuration
+3. **Database Configuration**:
+   - Configured MySQL database.
+   - Created user accounts and loaded a sample schema with 300,000 records.
 
-Obviously everything is in the open and unsecure here.
+## Deployment
+1. Packaged the application into a `.tar.gz` deployment file for distribution.
+2. Successfully deployed the application on additional VM environments.
 
-...and obviously change the credentials too...
+## Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/[YourGitHubUsername]/php-crud-assignment.git
